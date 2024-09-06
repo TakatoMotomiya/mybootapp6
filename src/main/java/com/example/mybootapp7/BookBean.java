@@ -1,4 +1,4 @@
-package com.example.mybootapp6;
+package com.example.mybootapp7;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class BookBean {
-Integer id ;
+Integer id;
 String title;
 String writter;
 String publisher;

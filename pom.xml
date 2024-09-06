@@ -9,10 +9,11 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>mybootapp6</artifactId>
+	<artifactId>jp.te4a.spring.boot.myapp7</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mybootapp6</name>
+	<name>mybootapp7</name>
 	<description>Demo project for Spring Boot</description>
+	<!--
 	<url/>
 	<licenses>
 		<license/>
@@ -26,6 +27,7 @@
 		<tag/>
 		<url/>
 	</scm>
+	-->
 	<properties>
 		<java.version>21</java.version>
 	</properties>
@@ -34,12 +36,19 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!--
+		<dependency>
+    		<groupId>org.springframework.boot</groupId>
+    		<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		-->
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<!--
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -51,14 +60,14 @@
 			<artifactId>spring</artifactId>
 			<version>2.5.6.SEC03</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-jasper -->
-<dependency>
-    <groupId>org.apache.tomcat.embed</groupId>
-    <artifactId>tomcat-embed-jasper</artifactId>
-    <version>10.1.24</version>
-</dependency>
+		-->
+	<dependency>
+ 		<groupId>org.springframework.boot</groupId>
+ 		<artifactId>spring-boot-starter-thymeleaf</artifactId>
+ </dependency>
 
 	</dependencies>
+
 
 	<build>
 		<plugins>

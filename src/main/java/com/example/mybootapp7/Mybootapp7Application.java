@@ -1,13 +1,13 @@
-package com.example.mybootapp6;
+package com.example.mybootapp7;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Mybootapp6Application {
+public class Mybootapp7Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Mybootapp6Application.class, args);
+		SpringApplication.run(Mybootapp7Application.class, args);
 	}
 
 }

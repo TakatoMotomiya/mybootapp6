@@ -1,4 +1,4 @@
-package com.example.mybootapp6;
+package com.example.mybootapp7;
 
 import java.util.List;
 
