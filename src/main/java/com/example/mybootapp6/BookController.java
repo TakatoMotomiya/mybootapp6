@@ -12,9 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class BookController {
 @Autowired 
 BookService bookService;
-@RequestMapping("/")
+@RequestMapping("")
  public String index(Model model) {
- model.addAttribute("msg", "this is setting message");
+ model.addAttribute("msg","this is setting message");
  return "index";
  }
 
